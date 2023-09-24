@@ -1,0 +1,87 @@
+body   {
+    background-color: black;
+}
+
+#Content   {
+    display: flex;
+    margin: auto;
+    background-color: white;
+    border-radius: 30px;
+    width: 20%;
+    height: 600px;
+    overflow: hidden;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Weeks  {
+    font-size: 15px;
+    color: #3f5b8b;
+    margin-top: 40px;
+}
+
+.Post   {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: -30px;
+}
+
+.Text   {
+
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(123, 128, 128);
+}
+
+.Last   {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 40px;
+    grid-gap: 1px;
+    color: white;
+}
+
+.Read   {
+    grid-column: 1/2;
+    background-color: #3f5b8b;
+}
+
+.Views   {
+    grid-column: 2/3;
+    background-color: #3f5b8b;
+}
+
+.Comments   {
+    grid-column: 3/4;
+    background-color: #3f5b8b;
+}
+
+.Read   {
+    grid-column: 1/2;
+    background-color: #3f5b8b;
+}
+
+.Views   {
+    grid-column: 2/3;
+    background-color: #3f5b8b;
+}
+
+.Comments   {
+    grid-column: 3/4;
+    background-color: #3f5b8b;
+}
+
+.Read h1, .Comments h1, .Views  h1   {
+    font-size: 9px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+.Read p, .Comments p, .Views  p   {
+    font-size: 20px;
+}
+
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}

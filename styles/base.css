@@ -16,7 +16,7 @@ header{
 nav a{
     text-decoration:none;
     display: list-item;
-    background-color: rgb(0, 66, 84);;
+    background-color: rgb(0, 66, 84);
     color: aliceblue;
     text-align: center;
     padding: 10px;
@@ -24,10 +24,16 @@ nav a{
     font-family: 'Courier New', Courier, monospace;
 }
 
+nav ul {
+    list-style: none;
+    margin-left: -50px;
+}
+
 main h2{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
+    color: rgb(0, 66, 84);
 }
 
 main {
@@ -35,13 +41,29 @@ main {
     max-width: 1600px;
     margin: 0 auto;
     text-align: center;
+    color: rgb(0, 66, 84);
 }
 
 footer{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     background-color: rgb(14, 159, 203);
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.card {
+    color: rgb(0, 66, 84);
     font-size: 20px;
 }
 
+section ul {
+    list-style: none;
+    text-align: justify;
+    margin: 0 20%;
+    border: solid rgb(0, 66, 84);
+    padding: 20px;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+}

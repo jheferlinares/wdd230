@@ -1,0 +1,26 @@
+@media screen and (min-width: 2000px)
+    {
+        nav ul{
+            display: flex;
+            list-style-type: none;
+            margin-left: -50px;
+        }
+
+        nav ul li {
+            flex: 1 1 100%;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 1fr 1fr;
+        }
+
+        main h2 {
+            grid-row: 1;
+        }
+
+        main section {
+            grid-row: 2;
+        }
+    }

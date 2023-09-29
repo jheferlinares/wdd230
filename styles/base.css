@@ -1,39 +1,22 @@
 header{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     align-items: center;
     font-family: 'Courier New', Courier, monospace;
-    background-color: rgb(14, 159, 203);
+    background-color: rgb(0, 66, 84);
     color: rgb(255, 255, 255);
     font-size: 35px;
+    margin: 0 0 0 -100px;
 }
 
 .profile{
-    padding: 100px;
-    margin-left: 50px;
+    padding: 80px 0px 80px 80px;
+    margin-left: 100px;
 }
 
-nav a{
-    text-decoration:none;
-    display: list-item;
-    background-color: rgb(0, 66, 84);
-    color: aliceblue;
-    text-align: center;
-    padding: 10px;
-    font-size: 30px;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-nav ul {
-    list-style: none;
-    margin-left: -50px;
-}
-
-main h2{
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 40px;
-    color: rgb(0, 66, 84);
+h1 {
+    text-align: left;
+    margin: 0 auto;
 }
 
 main {
@@ -47,8 +30,8 @@ main {
 footer{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    background-color: rgb(14, 159, 203);
-    color: rgb(0, 0, 0);
+    background-color: rgb(0, 66, 84);
+    color: rgb(255, 255, 255);
     font-size: 30px;
     font-weight: 600;
 }
@@ -67,3 +50,93 @@ section ul {
     border-radius: 20px;
     color: rgb(0, 0, 0);
 }
+
+#menu {
+	font-size: 10rem;
+	font-weight: 700;
+    align-self: start;
+    margin: 0 auto;
+	text-decoration: none;
+    text-align: right;
+	padding: .5rem .75rem;
+    background-color: rgb(0, 66, 84);
+	color: white;
+}
+
+#menu::before {
+	content: "≡";
+}
+
+nav {
+	background-color: rgb(0, 66, 84);
+}
+.navigation {
+    border-radius: 10px;
+	list-style: none;
+	margin: -20px auto;
+	max-width: 760px;
+}
+
+.navigation li {
+	display: none;
+}
+
+nav ul {
+    list-style: none;
+    margin-left: -50px;
+}
+
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-weight: 700;
+	font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navigation a:hover {
+	color: rgb(0, 66, 84);
+	background-color: rgb(255, 255, 255);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+}
+
+.show li {
+	display: block;
+}
+
+#menu.show::before {
+	content: "X";
+    color: rgb(255, 255, 255);
+    font-size: 8rem;
+	font-weight: 500;
+}
+
+.active::before {
+        content: "👨‍💻 ";
+}
+
+#map-container {
+    display: flex;
+    justify-content: center;
+  }
+
+
+@media screen and (max-width: 1300px)
+    {
+        h1 {
+        text-align: center;
+        margin: 0 auto;
+        font-size: 35px;
+        }
+
+        #menu {
+            text-align: left;
+            font-size: 50px;
+        }
+    }

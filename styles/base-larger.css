@@ -1,12 +1,15 @@
 @media screen and (min-width: 2000px)
     {
-        nav ul{
-            display: flex;
-            list-style-type: none;
-            margin-left: -50px;
+        #menu {
+            display: none; /* hide hamburger button */
         }
-
-        nav ul li {
+    
+        .navigation {
+            flex-direction: row;
+        }
+    
+        .navigation li {
+            display: block;
             flex: 1 1 100%;
         }
 
@@ -23,4 +26,6 @@
         main section {
             grid-row: 2;
         }
+
+    
     }

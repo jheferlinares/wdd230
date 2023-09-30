@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bevan&family=Playfair+Display&family=Roboto+Condensed:wght@300&display=swap');
+
+:root {
+  --primary-color: #699fb0;
+  --secondary-color: #3a8699;
+  --typography-color: #232f3e;
+  --background-color: #efefef;
+  --extra-color: #2a255c;
+
+  --primary-font: 'Playfair Display', "serif";
+  --secondary-font: 'Roboto Condensed', "sans-serif";
+  --tertiary-font: 'Bevan', "serif";
+
+  --headline-color-on-white: #232f3e;
+  --headline-color-on-color: #232f3e;
+  --extra-color: #2a255c;
+}
+
+/*  Look around below...but DON'T CHANGE ANYTHING! */
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4em;
+  font-size: 18px;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--primary-font);
+  color: var(--headline-color-on-white);
+}
+h2 {
+  text-align: center;
+}
+hr {
+  height: 3px;
+  margin: 35px 0;
+  background: var(--extra-color);
+}
+header {
+  padding: 1em;
+  text-align: center;
+  color: var(--extra-color);
+}
+header > h1, header > h2 {
+  color: var(--extra-color);
+}
+
+p {
+  font-family: var(--secondary-font);
+  color: var(--typography-color);
+  padding: 1em;
+}
+.colors {
+  width: 100%;
+  min-width: 350px;
+  margin: 30px auto;
+  text-align: center;
+}
+.colors th {
+  background-color: #999;
+}
+.colors td{
+  width: 25%;
+  height: 3em;
+}
+
+.primary {
+  background-color: var(--primary-color);
+}
+.secondary {
+  background-color: var(--secondary-color);
+}
+.typography {
+  background-color: var(--typography-color);
+}
+.background {
+  background-color: var(--background-color);
+}
+.extra {
+  background-color: var(--extra-color);
+}
+
+p {
+  background-color: var(--background-color);
+  color: var(--typography-color);
+  font-weight: 600;
+}
+
+.wireframe {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.roboto{
+  font-family: var(--secondary-font);
+}
+
+.bevan{
+  font-family: var(--tertiary-font);
+}
+
+.views {
+  font-family: var(--tertiary-font);;
+}

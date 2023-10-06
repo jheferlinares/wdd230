@@ -141,4 +141,38 @@ nav ul {
             text-align: left;
             font-size: 50px;
         }
+
+        .profile {
+            width: 100px;
+        }
+    }
+
+
+    @media screen and (max-width: 700px)
+    {
+        h1 {
+        text-align: center;
+        margin: 0 auto;
+        font-size: 15px;
+        }
+
+        #menu {
+            text-align: left;
+            font-size: 30px;
+        }
+
+        .profile {
+            width: 80px;
+            margin-left: 50px;
+        }
+
+        #menu.show::before {
+            content: "X";
+            font-size: 2rem;
+            font-weight: 500;
+        }
+
+        * {
+            font-size: 8px;
+        }
     }

@@ -1,0 +1,13 @@
+.padre {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(2, 188px);
+    grid-template-rows: 75px 125px;
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+}
+
+.items {
+    background-color: rgb(255, 0, 0);
+}

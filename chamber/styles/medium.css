@@ -1,0 +1,64 @@
+@media screen and (min-width: 1000px)
+{
+    #menu, .navigation{
+        display: none;
+    }
+
+    #menu.open::before {
+        display: none;
+    }
+
+    .navigation ul {
+        list-style: none;
+        display: flex;
+    }
+
+    .navigation {
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .join {
+        font-size: 50px;
+    }
+
+    .tittle, .invitation, h1 {
+        font-size: 120px;
+    }
+
+    .navigation a {
+        font-size: 70px;;
+    }
+
+    .ele {
+        grid-row: 2;
+    }
+    .navigation li {
+        display: block;
+    }
+
+    footer{
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 50px;
+    }
+    
+    h3 {
+        font-size: 70px;
+    }
+    
+    .each-event {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 60px;
+    }
+
+    .events {
+        text-align: center;
+    }
+}

@@ -1,0 +1,48 @@
+@media screen and (min-width: 2000px)
+{
+    #menu {
+        display: none;
+    }
+
+    .navigation ul {
+        list-style: none;
+        display: flex;
+        
+    }
+
+    .navigation {
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .join {
+        font-size: 80px;
+    }
+
+    .tittle, .invitation, h1 {
+        font-size: 160px;
+    }
+
+    .navigation a {
+        font-size: 150px;;
+    }
+
+    .ele {
+        grid-row: 2;
+    }
+
+    .navigation li {
+        display: block;
+    }
+
+    footer{
+        font-size: 80px;
+    }
+
+    .each-event {
+        gap: 400px;
+    }
+}

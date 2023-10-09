@@ -66,4 +66,8 @@
         text-align: center;
         font-size: 55px;
     }
+
+    .event-images {
+        width: 100%;
+    }
 }

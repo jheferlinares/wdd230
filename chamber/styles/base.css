@@ -150,6 +150,7 @@ footer{
 }
 
 .each-event {
+    text-align: center;
     display: grid;
     justify-content: center;
     align-content: center;
@@ -171,4 +172,12 @@ p {
 
 h3 {
     font-size: 30px;
+}
+
+.event-images {
+    width: 50%;
+}
+
+.events {
+    text-align: center;
 }

@@ -19,7 +19,7 @@
     }
 
     .join {
-        font-size: 80px;
+        font-size: 90px;
     }
 
     .tittle, .invitation, h1 {
@@ -44,5 +44,17 @@
 
     .each-event {
         gap: 400px;
+    }
+
+    p {
+        font-size: 80px;
+    }
+    
+    h2 {
+        font-size: 100px;
+    }
+
+    h3 {
+        font-size: 90px;
     }
 }

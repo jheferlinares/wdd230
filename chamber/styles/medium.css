@@ -48,17 +48,22 @@
         font-size: 50px;
     }
     
-    h3 {
+    h2 {
         font-size: 70px;
+    }
+
+    h3 {
+        font-size: 60px;
     }
     
     .each-event {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 60px;
+        gap: 120px;
     }
 
     .events {
         text-align: center;
+        font-size: 55px;
     }
 }

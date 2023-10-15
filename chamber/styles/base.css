@@ -231,11 +231,11 @@ h3 {
 }
 
 input:checked + .slider {
-    background-color: #000;
+    background-color: #3a8699;
 }
 
 input:focus + .slider {
-    box-shadow: 0 0 1px #000;
+    box-shadow: 0 0 1px #3a8699;
 }
 
 input:checked + .slider:before {

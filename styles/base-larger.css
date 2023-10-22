@@ -1,4 +1,4 @@
-@media screen and (min-width: 2000px)
+@media screen and (min-width: 1200px)
     {
         #menu {
             display: none; /* hide hamburger button */
@@ -27,5 +27,11 @@
             grid-row: 2;
         }
 
-    
+        .herolabel {
+            border: 5px solid rgba(0, 66, 84);
+        }
+
+        .herolabel p {
+            font-size: 4.5rem;
+        }
     }

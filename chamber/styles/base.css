@@ -6,6 +6,47 @@ main {
     align-items: center;
 }
 
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero {
+	position: relative;
+}
+
+.hero {
+    margin-top: 13.5%;
+}
+
+.div-text {
+	position: absolute;
+	top: 5px;
+	left: 80px;
+    right: 80px;
+	background: radial-gradient(#fff,rgb(0, 66, 84));
+	border: 1px solid rgba(0, 66, 84);
+	padding: 0.3rem;
+	box-shadow: 0 0 2rem #fff;
+	opacity: 0.75;
+}
+
+#weather-section {
+    text-align: center;
+}
+
+#wind-chill-form {
+    padding: 10px;
+}
+.div-text p {
+    text-align: center;
+	margin: 0;
+	padding: .15rem;
+	font-weight: 500;
+	font-size: 2.4rem;
+	font-family: 'Playfair Display', "serif";
+}
+
 footer {
     margin-top: -10px;
     margin-bottom: -40px;
@@ -40,7 +81,7 @@ footer {
     align-content: center;
     background-color: #232f3e;
     height: 100%;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
     font-family: 'Playfair Display', "serif";
 }
 

@@ -10,12 +10,31 @@
         
     }
 
+    #weather-section {
+        font-size: 50px;
+    }
+
     .navigation {
         display: grid;
         justify-content: center;
         justify-items: center;
         align-items: center;
         align-content: center;
+        margin-bottom: 200px;
+    }
+
+    .div-text {
+        top: -200px;
+        left: 500px;
+        right: 500px;
+    }
+
+    .div-text p {
+        font-size: 5rem;
+    }
+
+    .hero {
+        margin-top: 10%;
     }
 
     .join {

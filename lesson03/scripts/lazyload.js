@@ -1,4 +1,3 @@
-
 function updateCopyrightYear() {
     const copyrightYearElement = document.getElementById("copyright-year");
     const currentYear = new Date().getFullYear();

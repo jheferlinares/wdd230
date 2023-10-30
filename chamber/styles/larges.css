@@ -76,4 +76,32 @@
     h3 {
         font-size: 90px;
     }
+    
+    .sidebar h2, .images-example h2 {
+        font-size: 5rem;
+    }
+
+    .content-section {
+        margin: 20px;
+        margin-bottom: 25px;
+        padding: 80px;
+    }
+
+    .images-example p {
+        font-size: 30px;
+    }
+
+    #message {
+        font-size: 50px;
+    }
+
+    
+    .images-example img {
+        width: 800px;
+        height: 500px;
+    }
+
+    .content-section p {
+        font-size: 30px;
+    }
 }

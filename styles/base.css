@@ -34,7 +34,7 @@ iframe {
 	opacity: 0.75;
 }
 
-.herolabel h2 {
+.herolabel p {
     text-align: center;
 	margin: 0;
 	padding: .15rem;
@@ -160,6 +160,41 @@ nav ul {
     display: flex;
     justify-content: center;
   }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 3fr; /* Sidebar is 1 column, Content is 3 columns */
+    grid-template-areas:
+        "header header"
+        "sidebar content"
+        "footer footer";
+    min-height: 100vh;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background: #eee; /* Light gray background for the sidebar */
+    padding: 20px;
+}
+
+.sidebar h2 {
+    font-size: 1.5rem;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.content {
+    grid-area: content;
+    padding: 20px;
+}
 
 
 @media screen and (max-width: 1200px)

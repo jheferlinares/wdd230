@@ -118,8 +118,17 @@
         height: 205px;
     }
 
+    .images-example img:hover {
+        width: 355px;
+        height: 210px;
+    }
+
     .content-section p {
         font-size: 20px;
+    }
+
+    .image:hover {
+        opacity: 0.7;
     }
     
 }

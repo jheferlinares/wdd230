@@ -104,4 +104,13 @@
     .content-section p {
         font-size: 30px;
     }
+
+    .image:hover {
+        opacity: 0.7;
+    }
+
+    .images-example img:hover {
+        width: 365px;
+        height: 220px;
+    }
 }

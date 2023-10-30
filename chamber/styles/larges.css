@@ -110,7 +110,12 @@
     }
 
     .images-example img:hover {
-        width: 365px;
-        height: 220px;
+        width: 810px;
+        height: 520px;
+    }
+
+    .side-image{
+        width: 500px;
+        height: 480px;
     }
 }

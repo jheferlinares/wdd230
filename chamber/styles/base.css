@@ -367,3 +367,19 @@ iframe {
 .images-example {
     color: rgb(0, 0, 0);
 }
+
+img {
+    width: 100%;
+    background: black;
+    animation: fade 15s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jhefersson Linares">
+    <meta name="description" content="A portal page, i.e. links to assignments for WDD 230 - Frontend Web Development by Jhefersson Enrique Linares Castillo. 
+    It will be like a course assignment portal that will update this page each week with links to assignments and reviews as assigned.">
+    <meta property="og:title" content="Jhefersson Linares - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/b/b5/Plaza_Bol%C3%ADvar_de_Maracay.JPG">
+    <meta property="og:url" content="https://jheferlinares.github.io/wdd230/index.html">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/base-larger.css">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Jhefersson Linares - WDD 230 - Web Frontend Development</title>
+</head>
+<body>
+    <header>
+        <img class="profile" src="images/jhefer.webp" alt="Jhefersson Linares Image">
+        <h1>JHEFERSSON LINARES</h1>
+        <a id="menu" href="#"></a>
+        
+    </header>
+    <nav class="navigation">
+        <ul>
+            <li><a href="https://jheferlinares.github.io/wdd230/" class="active">Home</a></li>
+            <li><a href="https://jheferlinares.github.io/wdd230/lesson03/chamber-site-plan.html" target="_blank">Chamber Site Plan</a></li>
+            <li><a href="https://jheferlinares.github.io/wdd230/chamber/index.html" target="_blank">Chamber</a></li>
+            <li><a href="https://www.byui.edu/" target="_blank">BYU-Idaho</a></li>
+            <li><a href="https://www.churchofjesuschrist.org/study/scriptures/nt/luke/1?lang=eng&id=p37#p37" target="_blank">Scripture</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form  method="get" id="myForm" action="record.html">
+            <fieldset>
+                <legend>Personal Information</legend>
+                    <label>Username* </label><input type="text" id="username" name="username" required>
+                    <label>Password* </label><input type="password" id="password" name="password" required pattern="^[a-zA-Z0-9]{8,}$" title="Your password must have at least 8 characters (No special caracters)">
+                    <label>Confirm Password* </label><input type="password" id="password-confirm" name="password-confirm" required pattern="^[a-zA-Z0-9]{8,}$">
+                    <p id="password-error" style="color: red;"></p>
+                    <label>Email* </label><input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address">
+                
+                    <label for="page-rating">Page Rating</label>
+                    <input type="range" id="page-rating" name="page-rating" min="1" max="10" step="1">
+                    <div id="rating-number"><output for="page-rating">5</output></div>
+            </fieldset>
+            <input id="button" type="submit" value="Submit">
+          </form>
+    </main>
+    <footer>
+        <p>&copy; <span id="copyright-year"></span></p>
+        <p>Jhefersson Linares </p>
+        <p>Venezuela</p>
+        <p>Last modified: <span id="last-modified-date"></span></p>
+    </footer>
+<script src="scripts/getdates.js"></script>
+<script src="scripts/responsive.js"></script>
+<script src="scripts/passwords.js"></script>
+</body>
+</html>

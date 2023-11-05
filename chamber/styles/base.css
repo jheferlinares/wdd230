@@ -472,3 +472,7 @@ form input.submitBtn:hover {
 .message {
     font-size: 15px;
 }
+
+.tittle-member {
+    list-style: none;
+}

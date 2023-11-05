@@ -134,4 +134,22 @@
             opacity: 1;
         }
     }
+    
+    .member-large {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .bam {
+        font-size: 25px;
+    }
+
+    .membership-benefits {
+        font-size: 15px;
+    }
+
+    .message {
+        font-size: 60px;
+    }
+
 }

@@ -1,0 +1,33 @@
+#cards {
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(4, 27, 49);
+}
+
+img {
+    width: 100px;
+    height: 120px;
+}
+
+section {
+    background-color: rgb(62, 196, 230);
+    text-align: center;
+}
+
+header {
+    text-align: center;
+}
+
+@media screen and (min-width: 1300px)
+    {
+        #cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 1px;
+        }
+
+        img {
+            width: 340px;
+            height: 440px;
+        }
+    }

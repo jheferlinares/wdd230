@@ -79,9 +79,7 @@ section ul {
     list-style: none;
     text-align: justify;
     margin: 0 20%;
-    border: solid rgb(0, 66, 84);
     padding: 20px;
-    border-radius: 20px;
     color: rgb(0, 0, 0);
 }
 
@@ -194,6 +192,12 @@ nav ul {
 .content {
     grid-area: content;
     padding: 20px;
+}
+
+.card1 {
+    border: solid rgb(0, 66, 84);
+    border-radius: 20px;
+    background-color: rgb(226, 242, 247);
 }
 
 

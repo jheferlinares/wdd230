@@ -36,8 +36,6 @@ function displayLinks(weeks) {
         linksList.appendChild(span);
         linksContainer.appendChild(linksList);
     });
-
-    
   });
 }
 

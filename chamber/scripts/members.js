@@ -30,8 +30,8 @@ const displayCompanies = (companies) => {
       portrait.setAttribute('src', company.image);
       portrait.setAttribute('alt', `Portrait of ${company.name}`);
       portrait.setAttribute('loading', 'lazy');
-      portrait.setAttribute('width', '540');
-      portrait.setAttribute('height', '640');
+      portrait.setAttribute('width', '400');
+      portrait.setAttribute('height', '420');
       level.textContent = `Level of membership: ${company.membershiplevel}`;
       date.textContent = `Opening date: ${company.openingdate}`;
   

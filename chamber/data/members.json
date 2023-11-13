@@ -5,7 +5,7 @@
         "address": "One Apple Park Way, Cupertino, CA 95014, USA",
         "phonenumber": "900 150 503",
         "url": "https://www.apple.com/",
-        "image": "https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg",
+        "image": "https://jheferlinares.github.io/wdd230/chamber/images/Apple.png",
         "membershiplevel": "Gold",
         "openingdate": "April 01, 1976"
       },
@@ -14,7 +14,7 @@
         "address": "One Microsoft Way, Microsoft Campus, Redmond, Washington, USA",
         "phonenumber": "800 865 9408",
         "url": "https://www.microsoft.com/",
-        "image": "https://es.wikipedia.org/wiki/Microsoft#/media/Archivo:Building92microsoft.jpg",
+        "image": "https://jheferlinares.github.io/wdd230/chamber/images/Microsoft.png",
         "membershiplevel": "Gold",
         "openingdate": " April 4, 1975"
       },
@@ -23,7 +23,7 @@
         "address": "Seattle, Washington, USA",
         "phonenumber": "911 23 04 13",
         "url": "https://www.amazon.com/",
-        "image": "https://es.wikipedia.org/wiki/Amazon#/media/Archivo:Amazon_logo.svg",
+        "image": "https://jheferlinares.github.io/wdd230/chamber/images/Amazon.png",
         "membershiplevel": "Gold",
         "openingdate": "July 22 , 1994 "
       },
@@ -32,7 +32,7 @@
         "address": "1600 Amphitheatre Parkway Mountain View, CA 94043 United States",
         "phonenumber": "734-332-6500",
         "url": "https://abc.xyz/",
-        "image": "https://es.wikipedia.org/wiki/Alphabet#/media/Archivo:Googleplex_HQ_(cropped).jpg",
+        "image": "https://jheferlinares.github.io/wdd230/chamber/images/Alphabet.png",
         "membershiplevel": "Gold",
         "openingdate": "August 10, 2015"
       },
@@ -41,7 +41,7 @@
         "address": "Nueva York, USA",
         "phonenumber": "713-262-3300",
         "url": "https://www.jpmorganchase.com/",
-        "image": "https://es.wikipedia.org/wiki/JP_Morgan_Chase#/media/Archivo:JPMorgan_Chase.svg",
+        "image": "https://jheferlinares.github.io/wdd230/chamber/images/JPMorgan_Chase.png",
         "membershiplevel": "Gold",
         "openingdate": "1799"
       },
@@ -50,7 +50,7 @@
         "address": "Omaha, Nebraska , United States",
         "phonenumber": "402 346 1400",
         "url": "https://www.berkshirehathaway.com/",
-        "image": "https://es.wikipedia.org/wiki/Berkshire_Hathaway#/media/Archivo:Berkshire-Hathaway-Logo.svg",
+        "image": "https://jheferlinares.github.io/wdd230/chamber/images/Berkshire-Hathaway.png",
         "membershiplevel": "Gold",
         "openingdate": "1839"
       },
@@ -59,7 +59,7 @@
         "address": "Nashville, Tennessee, USA",
         "phonenumber": "615-937-1000",
         "url": "https://www.firestone.com/",
-        "image": "https://es.wikipedia.org/wiki/Firestone#/media/Archivo:Firestone.svg",
+        "image": "https://jheferlinares.github.io/wdd230/chamber/images/Firestone.png",
         "membershiplevel": "Gold",
         "openingdate": "1900"
       }

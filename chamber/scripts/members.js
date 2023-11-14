@@ -32,6 +32,7 @@ const displayCompanies = (companies) => {
       portrait.setAttribute('loading', 'lazy');
       portrait.setAttribute('width', '400');
       portrait.setAttribute('height', '420');
+      portrait.setAttribute('background-color', 'white');
       level.textContent = `Level of membership: ${company.membershiplevel}`;
       date.textContent = `Opening date: ${company.openingdate}`;
   

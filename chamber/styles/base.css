@@ -478,7 +478,7 @@ form input.submitBtn:hover {
 }
 
 .ic {
-    background-color: #cde0f7;
+    background-color: #f9fcff;
     padding: 5px;
     margin: 25px;
 }
@@ -524,6 +524,7 @@ section p {
 
 .list > section > a {
     font-size: 5px;
+    color: #000;
 }
 
 .list {

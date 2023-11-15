@@ -1,6 +1,6 @@
 const baseURL = "https://jheferlinares.github.io/wdd230/";
 const linksURL = "https://jheferlinares.github.io/wdd230/chamber/data/members.json";
-const cards = document.querySelector('#cards');
+const cards = document.querySelector('.grid');
 
 async function getCompaniesData() {
   const response = await fetch(linksURL);
@@ -27,6 +27,8 @@ const displayCompanies = (companies) => {
       url.setAttribute('href', `${company.url}`);
       url.setAttribute('target', `_blank`);
       url.textContent = `${company.url}`;
+      card.setAttribute('class', 'ic');
+      address.setAttribute('class', 'address');
       portrait.setAttribute('src', company.image);
       portrait.setAttribute('alt', `Portrait of ${company.name}`);
       portrait.setAttribute('loading', 'lazy');
@@ -36,13 +38,13 @@ const displayCompanies = (companies) => {
       level.textContent = `Level of membership: ${company.membershiplevel}`;
       date.textContent = `Opening date: ${company.openingdate}`;
   
+      card.appendChild(portrait);
       card.appendChild(name);
       card.appendChild(address);
       card.appendChild(phone);
-      card.appendChild(url);
-      card.appendChild(portrait);
       card.appendChild(level);
       card.appendChild(date);
+      card.appendChild(url);
   
       cards.appendChild(card);
     });

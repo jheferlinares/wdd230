@@ -152,4 +152,56 @@
         font-size: 60px;
     }
 
+    .list {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .list section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        margin: 0;
+    }
+
+    .list > section > p {
+        font-size: 15px;
+    }
+    
+    .list > section > h2 {
+        font-size: 15px;
+    }
+    
+    .list > section > a {
+        font-size: 15px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    section p {
+        font-size: 20px;
+    }
+
+    .menu {
+        padding: 20px;
+    }
+
+    #grid, #list {
+        width: 150px;
+        height: 150px;
+        font-size: 40px;
+        margin: 20px;
+    }
+
+    section img {
+        width: 400px;
+        height: 200px;
+    }
+
+    section a {
+        font-size: 40px;
+    }
+
 }

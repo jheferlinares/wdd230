@@ -476,3 +476,62 @@ form input.submitBtn:hover {
 .tittle-member {
     list-style: none;
 }
+
+.ic {
+    background-color: #cde0f7;
+    padding: 5px;
+    margin: 25px;
+}
+
+main {
+    text-align: center;
+}
+
+section img {
+    width: 140px;
+    height: 80px;
+    background-color: #ffffff;
+}
+
+.menu {
+    padding: 20px;
+}
+
+.list section:nth-child(even) {
+    background-color: #bed;
+}
+
+
+.list section img {
+    display: none;
+}
+
+.list section > * {
+    margin: 0 1rem;
+}
+
+section p {
+    font-size: 10px;
+}
+
+.list > section > p {
+    font-size: 5px;
+}
+
+.list > section > h2 {
+    font-size: 5px;
+}
+
+.list > section > a {
+    font-size: 5px;
+}
+
+.list {
+    text-align: start;
+    margin-bottom: 15px;
+}
+
+.list section {
+    padding: 0px;
+    margin: 0px;
+}

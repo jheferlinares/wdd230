@@ -1,7 +1,7 @@
 @media screen and (min-width: 1200px)
     {
         #menu {
-            display: none; /* hide hamburger button */
+            display: none;
         }
     
         .navigation {
@@ -33,5 +33,9 @@
 
         .herolabel p {
             font-size: 4.5rem;
+        }
+
+        main {
+            margin-bottom: -620px;
         }
     }

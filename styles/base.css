@@ -194,12 +194,26 @@ nav ul {
     padding: 20px;
 }
 
-.card1 {
+.card1, #card2 {
     border: solid rgb(0, 66, 84);
     border-radius: 20px;
     background-color: rgb(226, 242, 247);
+    margin: 20px;
 }
 
+#weather-icon {
+    height: 40px;
+}
+
+#temp {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+#tittlep {
+    text-align: center;
+}
 
 @media screen and (max-width: 1200px)
     {

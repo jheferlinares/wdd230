@@ -1,1 +1,3 @@
 <article id="cards"></article>
+
+const url = 'https://api.openweathermap.org/data/2.5/forecast?lat=10.47&lon=-66.90&units=imperial&appid=1873aed8d7b4e3a598c34d5e058ee348';

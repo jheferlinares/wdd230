@@ -536,3 +536,31 @@ section p {
     padding: 0px;
     margin: 0px;
 }
+
+.banner {
+    display: none;
+    background-color: #3a8699;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .banner p {
+    font-size: 5px;
+  }
+  
+  #closeBannerBtn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 4px;
+  }

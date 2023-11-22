@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chamber Weather</title>
+  <style>
+    /* Add your CSS styles here */
+  </style>
+</head>
+<body>
+  <h1>Chamber Weather</h1>
+  <div id="current-weather">
+    <h2>Current Weather</h2>
+    <p id="current-temperature"></p>
+    <p id="current-description"></p>
+  </div>
+  <div id="forecast">
+    <h2>3-Day Forecast</h2>
+    <ul id="forecast-list"></ul>
+  </div>
+
+  <script>
+    const forecastList = document.querySelector('#forecast-list');
+    // Replace 'YOUR_API_KEY' with your actual OpenWeatherMap API key
+    const apiKey = '1873aed8d7b4e3a598c34d5e058ee348';
+    const latitude = '10.24';  // Replace with your chamber's latitude
+    const longitude = '-67.60';  // Replace with your chamber's longitude
+
+    // One Call API endpoint
+    const apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&exclude=minutely,hourly,alerts&appid=${apiKey}`;
+
+    // Fetch data from the API
+    fetch(apiUrl)
+      .then(response => response.json())
+      .then(data => {
+        // Display current weather
+        const currentTemperature = data.current.temp;
+        const currentDescription = data.current.weather[0].description;
+
+        document.getElementById('current-temperature').textContent = `Temperature: ${currentTemperature} K`;
+        document.getElementById('current-description').textContent = `Description: ${currentDescription}`;
+
+        // Display 3-day forecast
+        const forecastList = document.getElementById('forecast-list');
+        const threeDayForecast = data.daily.slice(0, 3);
+
+        threeDayForecast.forEach(day => {
+          const date = new Date(day.dt * 1000);
+          const temperatureMax = day.temp.max;
+          const temperatureMin = day.temp.min;
+
+          const listItem = document.createElement('li');
+          listItem.textContent = `${date.toDateString()}: Max ${temperatureMax} K, Min ${temperatureMin} K`;
+          forecastList.appendChild(listItem);
+        });
+      })
+      .catch(error => console.error('Error fetching data:', error));
+  </script>
+</body>
+</html>

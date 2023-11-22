@@ -175,5 +175,9 @@
     .list section {
         padding: 10px;
     }
+
+    .banner p, #closeBannerBtn {
+        font-size: 12px;
+      }
     
 }

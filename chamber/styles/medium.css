@@ -109,7 +109,6 @@
     }
 
     #message {
-        color: #2a255c;
         font-size: 30px;
     }
 
@@ -179,5 +178,33 @@
     .banner p, #closeBannerBtn {
         font-size: 12px;
       }
+
+    form fieldset {
+        max-width: 1600px;
+    }
+    
+    form legend {
+        font-size: 20px;
+    }
+    
+    textarea {
+        max-width: 1600px;
+        width: 90%;
+    }
+    
+    form label.first, form div {
+        font-size: 1rem;
+        max-width: 1000px;
+    }
+    
+    form label.first input, form label.first select {
+        font-size: 2rem;
+        width: 80%;
+        max-width: 800px;
+    }
+    
+    form input.submitBtn {
+        max-width: 500px;
+    }
     
 }

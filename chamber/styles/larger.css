@@ -204,13 +204,55 @@
         font-size: 40px;
     }
 
-    .grid {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-    }
-
     .banner p, #closeBannerBtn {
         font-size: 18px;
       }
+
+      #imgFore, #imgWea{
+        height: 120px;
+        width: 120px;
+      }
+
+      #weather, .weather-display {
+        font-size: 100px;
+      }
+
+      #message {
+        font-size: 150px;
+        margin-bottom: 180px;
+        margin-top: -100px;
+    }
+
+    form fieldset {
+        max-width: 2000px;
+    }
+    
+    form legend {
+        font-size: 40px;
+    }
+    
+    textarea {
+        max-width: 2000px;
+        width: 90%;
+    }
+    
+    form label.first, form div {
+        font-size: 3rem;
+        max-width: 1200px;
+    }
+    
+    form label.first input, form label.first select {
+        font-size: 4rem;
+        width: 80%;
+        max-width: 1000px;
+    }
+    
+    form input.submitBtn {
+        max-width: 600px;
+    }
+
+    .membership-benefits, .bam {
+        font-size: 30px;
+    }
 
 }

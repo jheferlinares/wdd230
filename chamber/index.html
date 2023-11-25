@@ -40,6 +40,7 @@
         </ul>
     </nav>
     <main>
+        <p id="message"></p>
         <div class="hero">
             <div class="div-text">
                 <p id="text"></p>
@@ -81,9 +82,7 @@
             <button id="closeBannerBtn">Close</button>
         </div>
         <div id="weather-section">
-            <h4>Current weather of Caracas and a forecast for the next 3 days</h4>
-            <div class="grid"></div>
-            <form id="wind-chill-form">
+            <section id="weather" class="card"></section>
               <label for="temperature-input">Temperature (°F):</label>
               <input type="number" id="temperature-input" step="0.01" required>
               <br>
@@ -93,7 +92,7 @@
               <button type="button" id="calculate-wind-chill">Calculate Wind Chill</button>
             </form>
             <p id="wind-chill-result">Wind Chill: </p>
-          </div>
+        </div>
         <section class="spotlights">
             <h2>Spotlights</h2>
             <p>Advertisements</p>
@@ -113,5 +112,6 @@
 <script src="scripts/darkmode.js"></script>
 <script src="scripts/weather.js"></script>
 <script src="scripts/banner.js"></script>
+<script src="scripts/page-counter.js"></script>
 </body>
 </html>

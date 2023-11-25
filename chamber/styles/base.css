@@ -341,7 +341,7 @@ body.dark-mode .ic {
 
 #message {
     text-align: center;
-    color: rgb(0, 162, 255);
+    color: rgb(0, 89, 140);
     font-size: 15px;
     margin-bottom: -2px;
     margin-top: 20px;
@@ -638,4 +638,32 @@ section p {
 
   #weather {
     text-align: center;
+  }
+
+  #spotlight {
+    margin-bottom: 50px;
+  }
+
+  .spotGrid {
+    background-color: #6ab1c3;
+    padding: 10px;
+    margin: 15px;
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+  }
+
+  .spotGrid:hover {
+    transform: scale(1.04);
+  }
+
+  .spotGrid h3{
+    font-size: 15px;
+  }
+
+  body.dark-mode .spotGrid, body.dark-mode .spotGrid p, body.dark-mode .spotGrid a {
+    color: #000;
+  }
+
+  body.dark-mode .spotGrid {
+    box-shadow: 0 5px 10px 0px rgb(191, 191, 191);
   }

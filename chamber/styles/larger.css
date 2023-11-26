@@ -277,4 +277,21 @@
         height: 200px;
       }
 
+    .list > section > p {
+        font-size: 35px;
+    }
+
+    .list > section > a {
+        font-size: 35px;
+    }
+
+    .list > section > h2 {
+        font-size: 35px;
+    }
+
+    section p {
+        font-size: 35px;
+    }
+
+
 }

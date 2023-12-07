@@ -1,0 +1,16 @@
+@media screen and (min-width: 2500px)
+{
+
+/* nav */
+ul {
+    background-color: aqua;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+}
+
+}

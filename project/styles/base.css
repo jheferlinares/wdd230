@@ -1,0 +1,186 @@
+/* tittle */
+.tittle {
+    text-align: center;
+    font-size: 10px;
+}
+
+/* nav */
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+ul {
+    background-color: #1b5f9a;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    box-shadow: 0 0 10px #5184b0;
+    border-radius: 1px;
+    opacity: 0.9;
+}
+
+.navigation li {
+	display: none;
+}
+
+.open li {
+    display: flex;
+    padding: 5px;
+}
+
+.open li:hover {
+    background-color: aliceblue;
+}
+
+a:hover {
+    color: #1b5f9a;
+}
+
+/* Buger Button */
+
+#menu {
+	font-size: 3.8rem;
+	color: #1b5f9a;
+	position: absolute;
+	top: -10px;
+    left: 15px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#menu::before {
+	content: "≡";
+}
+
+#menu.open::before {
+	content: "X";
+    font-size: 2rem;
+}
+
+/* Banner */
+#banner {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: black; opacity: 0.5;
+    filter: brightness(0.6);
+}
+
+.bannerCont {
+    text-align: center;
+}
+
+body {
+    background-color: #e5f1fb;
+}
+
+/* Book Now*/
+
+#reservation {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1rem;
+}
+
+
+/* Dark Mode */
+.switch {
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    right: 0.2rem;
+    top: .5rem;
+}
+
+.switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+input:checked + .slider {
+    background-color: #3a8699;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #3a8699;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Table */
+table {
+    font-size: 5px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #00acd2;
+    padding: 5px;
+    text-align: left;
+}
+
+th {
+    background-color: #00acd2;
+}
+
+tr th:first-child {
+    font-size: 12px;
+}
+
+/* Weather */
+
+#weather-section {
+    text-align: center;
+}
+
+/* footer */
+footer {
+    text-align: center;
+}
+
+/* main */
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+}
+
+#resume {
+    text-align: center;
+}

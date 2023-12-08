@@ -5,7 +5,7 @@
 }
 
 /* nav */
-a {
+.Anav {
     text-decoration: none;
     color: #ffffff;
 }
@@ -25,19 +25,17 @@ ul {
 }
 
 .open li {
-    display: flex;
+    display: block;
     padding: 5px;
 }
 
-.open li:hover {
-    background-color: aliceblue;
-}
-
-a:hover {
+.Anav:hover {
+    background-color: #ffffff;
     color: #1b5f9a;
+    padding: 5px;
 }
 
-/* Buger Button */
+/* Burger Button */
 
 #menu {
 	font-size: 3.8rem;

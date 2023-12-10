@@ -1,0 +1,42 @@
+{
+    "Rentals": [
+      {
+        "name": "Scooters",
+        "summary": [
+            {
+              "type": "Honda Metropolitan (49cc)",
+              "person": "1 person"
+            },
+            {
+              "type": "Honda Dio (110cc)",
+              "person": "2 person"
+            },
+            {
+                "type": "Honda PCX150 (149cc)",
+                "person": "2 person"
+            }
+          ]
+      },
+      {
+        "name": "ATVs",
+        "summary": [
+            {
+              "type": "Honda Pioneer 1000",
+              "person": "4 persons"
+            }
+          ]
+      },{
+        "name": "Jeeps",
+        "summary": [
+            {
+              "type": "Jeep Wrangler - 4 door manuel with A/C",
+              "person": "5 person"
+            },
+            {
+              "type": "Jeep Wrangler - 2 door - open air - manuel",
+              "person": "4 person"
+            }
+          ]
+      }
+    ]
+}

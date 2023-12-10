@@ -2,6 +2,7 @@
 .tittle {
     text-align: center;
     font-size: 10px;
+    color: #1b5f9a;
 }
 
 /* nav */
@@ -57,6 +58,12 @@ ul {
 }
 
 /* Banner */
+#bb{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 25%);
+}
+
 #banner {
     max-width: 100%;
     height: auto;
@@ -67,6 +74,8 @@ ul {
 
 .bannerCont {
     text-align: center;
+    grid-column: 1/4;
+    grid-row: 1;
 }
 
 body {
@@ -76,12 +85,31 @@ body {
 /* Book Now*/
 
 #reservation {
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 1rem;
+    grid-column: 2;
+    z-index: 1;
+    grid-row: 2/2;
+    text-align: center;
+    background-color: #1b5361;
+    border-radius: 5px;
+    justify-self: center;
+    align-self: center;
 }
+
+#reservation a {
+    text-decoration: none;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 10px;
+}
+
+#reservation:hover {
+    background-color: #ffffff;
+}
+
+#reservation a:hover {
+    color: #1b5361;;
+}
+
 
 
 /* Dark Mode */
@@ -170,6 +198,13 @@ tr th:first-child {
 /* footer */
 footer {
     text-align: center;
+    background-color: #1b5f9a;
+    color: #ffffff;
+}
+
+a img {
+    width: 40px;
+    padding: 5px;
 }
 
 /* main */
@@ -179,6 +214,13 @@ main {
     gap: 5px;
 }
 
-#resume {
+#resume, #weather-section {
     text-align: center;
+    background-color: #ddecf9;
+    border-radius: 10px;
+    border: solid #1b5f9a 4px;
+}
+
+#social {
+    display: none;
 }

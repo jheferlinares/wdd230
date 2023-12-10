@@ -29,10 +29,9 @@ function loadForecast(data){
    const weatherHead = document.createElement('h2');
    const forecastHead = document.createElement('h3');
    const iconsource = `https://openweathermap.org/img/w/${data.list[0].weather[0].icon}.png`;
+   const aver = data.list[0].main.humidity;
    const todayDesc = data.list[0].weather[0].description;
-   
-   speed.textContent = `Wind Speed: ${data.list[0].wind.speed} mph`;
-   
+      
    weatherHead.textContent = "Current Weather"
    forecastHead.textContent = "Forecast"
    dayIcon.setAttribute('src', iconsource);
@@ -40,6 +39,9 @@ function loadForecast(data){
    dayIcon.setAttribute('width', '50');
    dayIcon.setAttribute('height', '50');
    dayIcon.setAttribute('id', 'imgWea')
+   const aver2 = document.createElement("p")
+
+   aver2.textContent = aver;
    
    dayNum.innerHTML = `${Math.round(data.list[0].main.temp)}&deg;F`;
    let indexOftempType = dayNum.innerHTML.length - 1;
@@ -58,6 +60,7 @@ function loadForecast(data){
    weatherCard.appendChild(weatherHead);
    weatherNow.appendChild(dayNum);
    weatherNow.appendChild(dayIcon);
+   weatherNow.appendChild(aver2);
    weatherNow.appendChild(dayDescr);
    weatherCard.appendChild(weatherNow);
    weatherCard.appendChild(forecastHead);

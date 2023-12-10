@@ -1,5 +1,49 @@
 @media screen and (min-width: 1000px)
 {
+    #menu, .navigation{
+        display: none;
+    }
 
-    
+    #menu.open::before {
+        display: none;
+    }
+
+    .navigation ul {
+        list-style: none;
+        display: flex;
+    }
+
+    .navigation {
+        display: grid;
+    }
+
+    .navigation li {
+        display: flex;
+        font-size: 50px;
+    }
+
+    #reservation {
+        font-size: 50px;
+    }
+
+    .tittle {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    #social {
+        display: flex;
+        position: absolute;
+        top: 1px;
+    }
+
+    a img {
+        width: 40px;
+        padding: 5px;
+    }
+
+    main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }

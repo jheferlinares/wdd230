@@ -1,6 +1,6 @@
 {
-  "Rentals": [
-    {
+    "rentals": [
+     {
       "name": "Scooters",
       "summary": [
           {
@@ -12,8 +12,8 @@
             "person": "2 person"
           },
           {
-              "type": "Honda PCX150 (149cc)",
-              "person": "2 person"
+            "type": "Honda PCX150 (149cc)",
+            "person": "2 person"
           }
         ]
     },

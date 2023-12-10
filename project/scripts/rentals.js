@@ -1,6 +1,5 @@
-const baseURL = "https://jheferlinares.github.io/wdd230/";
-const linksURL = "https://jheferlinares.github.io/wdd230/project/data/rentals.json";
-const cards = document.querySelector(".card");
+const linksURL = "https://jheferlinares.github.io/wdd230/data/rentals.json";
+
 
 async function getLinks() {
     const response = await fetch(linksURL);

@@ -1,30 +1,34 @@
-const linksURL = "https://jheferlinares.github.io/wdd230/project/data/rentals.json";
+const baseURL = "https://jheferlinares.github.io/wdd230/";
+const linksURL = "https://jheferlinares.github.io/wdd230/data/rentals.json";
+const cards = document.querySelector(".card");
 
 async function getLinks() {
-    const response = await fetch(linksURL);
+    const response = await fetch("data/links.json");
     const data = await response.json();
     displayLinks(data);
   }
   
 getLinks();
 
-function displayLinks(scooters) {
-  const linksContainer = document.querySelector('#resume');
+function displayLinks(weeks) {
+  const linksContainer = document.querySelector('.card1');
 
-  scooters.rentals.forEach((name) => {
-    const weekNumber = name.name;
-    const links = name.summary;
+  weeks.lessons.forEach((lesson) => {
+    const weekNumber = lesson.lesson;
+    const links = lesson.links;
 
-    const linksList = document.createElement('div');
-    linksList.textContent = weekNumber;
+    const linksList = document.createElement('ul');
+    linksList.textContent = `Week:${weekNumber} `;
 
     const span = document.createElement('span');
 
-    summary.forEach((summary) => {
-      const listItem = document.createElement('h3');
-      const anchor = document.createElement('p');
-      let text = document.createTextNode("-");
-      anchor.textContent = summary.type;
+    links.forEach((link) => {
+      const listItem = document.createElement('li');
+      const anchor = document.createElement('a');
+      let text = document.createTextNode("│");
+      anchor.setAttribute('href', `${link.url}`);
+      anchor.setAttribute('target', `_blank`);
+      anchor.textContent = link.title;
 
         span.appendChild(anchor);
         listItem.appendChild(span);

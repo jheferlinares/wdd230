@@ -1,0 +1,80 @@
+const linksURL = "https://jheferlinares.github.io/wdd230/project/data/rentals.json";
+
+async function getLinks() {
+    const response = await fetch(linksURL);
+    const data = await response.json();
+    displayLinks(data);
+  }
+  
+getLinks();
+
+function displayLinks(scooters) {
+  const linksContainer = document.querySelector('#resume');
+
+  scooters.rentals.forEach((name) => {
+    const weekNumber = name.name;
+    const links = name.summary;
+
+    const linksList = document.createElement('div');
+    linksList.textContent = weekNumber;
+
+    const span = document.createElement('span');
+
+    summary.forEach((summary) => {
+      const listItem = document.createElement('h3');
+      const anchor = document.createElement('p');
+      let text = document.createTextNode("-");
+      anchor.textContent = summary.type;
+
+        span.appendChild(anchor);
+        listItem.appendChild(span);
+        span.appendChild(text);
+        linksList.appendChild(span);
+        linksContainer.appendChild(linksList);
+    });
+  });
+}
+
+
+{
+    "rentals": [
+     {
+      "name": "Scooters",
+      "summary": [
+          {
+            "type": "Honda Metropolitan (49cc)",
+            "person": "1 person"
+          },
+          {
+            "type": "Honda Dio (110cc)",
+            "person": "2 person"
+          },
+          {
+            "type": "Honda PCX150 (149cc)",
+            "person": "2 person"
+          }
+        ]
+    },
+    {
+      "name": "ATVs",
+      "summary": [
+          {
+            "type": "Honda Pioneer 1000",
+            "person": "4 persons"
+          }
+        ]
+    },{
+      "name": "Jeeps",
+      "summary": [
+          {
+            "type": "Jeep Wrangler - 4 door manuel with A/C",
+            "person": "5 person"
+          },
+          {
+            "type": "Jeep Wrangler - 2 door - open air - manuel",
+            "person": "4 person"
+          }
+        ]
+    }
+  ]
+}

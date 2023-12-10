@@ -10,23 +10,25 @@ async function getLinks() {
   
 getLinks();
 
-function displayLinks(scooters) {
-  const linksContainer = document.querySelector('#resume');
+function displayLinks(weeks) {
+  const linksContainer = document.querySelector('.card1');
 
-  weeks.rentals.forEach((name) => {
-    const weekNumber = name.name;
-    const links = name.summary;
+  weeks.lessons.forEach((lesson) => {
+    const weekNumber = lesson.lesson;
+    const links = lesson.links;
 
-    const linksList = document.createElement('div');
-    linksList.textContent = weekNumber;
+    const linksList = document.createElement('ul');
+    linksList.textContent = `Week:${weekNumber} `;
 
     const span = document.createElement('span');
 
-    summary.forEach((summary) => {
-      const listItem = document.createElement('h3');
-      const anchor = document.createElement('p');
-      let text = document.createTextNode("-");
-      anchor.textContent = summary.type;
+    links.forEach((link) => {
+      const listItem = document.createElement('li');
+      const anchor = document.createElement('a');
+      let text = document.createTextNode("│");
+      anchor.setAttribute('href', `${link.url}`);
+      anchor.setAttribute('target', `_blank`);
+      anchor.textContent = link.title;
 
         span.appendChild(anchor);
         listItem.appendChild(span);

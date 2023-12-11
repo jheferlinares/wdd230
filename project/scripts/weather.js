@@ -1,6 +1,7 @@
 
-const url = "https://api.openweathermap.org/data/2.5/forecast?lat=10.47&lon=-66.90&units=imperial&appid=1873aed8d7b4e3a598c34d5e058ee348";
+const url = "https://api.openweathermap.org/data/2.5/forecast?lat=20.42&lon=-86.92&units=imperial&appid=1873aed8d7b4e3a598c34d5e058ee348";
 const weatherInfo = document.querySelector('#weather');
+const bannerMessage = document.querySelector('.banner');
 
 
 async function getData(){
@@ -27,9 +28,12 @@ function loadForecast(data){
    dayNum.setAttribute('id', 'temp');
    const dayDescr = document.createElement('span');
    const weatherHead = document.createElement('h2');
-   const forecastHead = document.createElement('h3');
+   const forecastHead = document.createElement('h2');
    const iconsource = `https://openweathermap.org/img/w/${data.list[0].weather[0].icon}.png`;
+   const aychamo = data.list[0].main.temp_max;
    const aver = data.list[0].main.humidity;
+   const nose = data.list[0].weather[0].main;
+   const naguara = data.list[0].weather[0].id;
    const todayDesc = data.list[0].weather[0].description;
       
    weatherHead.textContent = "Current Weather"
@@ -39,9 +43,15 @@ function loadForecast(data){
    dayIcon.setAttribute('width', '50');
    dayIcon.setAttribute('height', '50');
    dayIcon.setAttribute('id', 'imgWea')
+   const aychamo2 = document.createElement("p")
    const aver2 = document.createElement("p")
+   const naguara2 = document.createElement("p")
+   const nose2 = document.createElement("p")
 
-   aver2.textContent = aver;
+   aychamo2.textContent = `The highest temperature today: ${aychamo}°F`;
+   aver2.textContent = `Humidity: ${aver}%`.toUpperCase();
+   nose2.textContent = `Main: ${nose}`.toUpperCase();
+   naguara2.textContent = `ID: ${naguara}`;
    
    dayNum.innerHTML = `${Math.round(data.list[0].main.temp)}&deg;F`;
    let indexOftempType = dayNum.innerHTML.length - 1;
@@ -56,12 +66,15 @@ function loadForecast(data){
    }else{
     tC = "N/A"
    }
-   dayDescr.textContent = `  ${todayDesc}`;
+   bannerMessage.appendChild(aychamo2);
+   dayDescr.textContent = todayDesc.toUpperCase();
    weatherCard.appendChild(weatherHead);
+   weatherNow.appendChild(naguara2);
+   weatherNow.appendChild(nose2);
    weatherNow.appendChild(dayNum);
    weatherNow.appendChild(dayIcon);
-   weatherNow.appendChild(aver2);
    weatherNow.appendChild(dayDescr);
+   weatherNow.appendChild(aver2);
    weatherCard.appendChild(weatherNow);
    weatherCard.appendChild(forecastHead);
 
@@ -87,7 +100,7 @@ function loadForecast(data){
      forecastIcon.setAttribute('id', 'imgFore')
 
      forecastNum.innerHTML = `${Math.round(data.list[i].main.temp)}&deg;F`
-     forecastDescr.textContent = ` ${fDesc}`;
+     forecastDescr.textContent = fDesc.toUpperCase();
      
      forecastWeather.appendChild(forecasteDate);
      forecastWeather.appendChild(forecastIcon);
@@ -96,8 +109,7 @@ function loadForecast(data){
      weatherCard.appendChild(forecastWeather);
      i += 8;    
 
-   } 
-   
+   }  
 
    
   weatherInfo.append(weatherCard);

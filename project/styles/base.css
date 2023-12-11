@@ -1,8 +1,9 @@
 /* tittle */
 .tittle {
+    color: #1b5f9a;
     text-align: center;
     font-size: 10px;
-    color: #1b5f9a;
+    margin-top: 35px;
 }
 
 /* nav */
@@ -42,7 +43,7 @@ ul {
 	font-size: 3.8rem;
 	color: #1b5f9a;
 	position: absolute;
-	top: -10px;
+	top: 20px;
     left: 15px;
     text-decoration: none;
     font-weight: 600;
@@ -118,7 +119,7 @@ body {
     width: 60px;
     height: 30px;
     right: 0.2rem;
-    top: .5rem;
+    top: 2.5rem;
 }
 
 .switch input {
@@ -200,6 +201,7 @@ footer {
     text-align: center;
     background-color: #1b5f9a;
     color: #ffffff;
+    font-size: 12px;
 }
 
 a img {
@@ -219,8 +221,71 @@ main {
     background-color: #ddecf9;
     border-radius: 10px;
     border: solid #1b5f9a 4px;
+    padding: 20px;
 }
 
 #social {
     display: none;
+}
+
+.aver {
+    display:inline-block;
+}
+
+.nose {
+    text-align: center;
+    font-size: 10px; 
+}
+
+.principal {
+    font-size: 20px;
+}
+
+#prices {
+   text-align: center;
+   margin: 40px;
+}
+
+#prices a {
+    background-color: #1b5361;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#prices a:hover {
+    background-color: #29849a;
+}
+
+
+.banner {
+    z-index: 1;
+    background-color: #3a8699;
+    color: white;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .banner p {
+    font-size: 8px;
+  }
+  
+  #closeBannerBtn {
+    background-color: #ff1100;
+    color: white;
+    border: none;
+    padding: 1px 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 6px;
+  }
+
+#nojose {
+    margin-top: -8px;
 }

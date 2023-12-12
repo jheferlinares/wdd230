@@ -1,67 +1,100 @@
 {
-    "companies": [
-      {
-        "name": "Apple",
-        "address": "One Apple Park Way, Cupertino, CA 95014, USA",
-        "phonenumber": "900 150 503",
-        "url": "https://www.apple.com/",
-        "image": "https://jheferlinares.github.io/wdd230/chamber/images/Apple.jpg",
-        "membershiplevel": "Gold",
-        "openingdate": "April 01, 1976"
-      },
-      {
-        "name": "Microsoft",
-        "address": "One Microsoft Way, Microsoft Campus, Redmond, Washington, USA",
-        "phonenumber": "800 865 9408",
-        "url": "https://www.microsoft.com/",
-        "image": "https://jheferlinares.github.io/wdd230/chamber/images/Microsoft.png",
-        "membershiplevel": "Gold",
-        "openingdate": " April 4, 1975"
-      },
-      {
-        "name": "Amazon",
-        "address": "Seattle, Washington, USA",
-        "phonenumber": "911 23 04 13",
-        "url": "https://www.amazon.com/",
-        "image": "https://jheferlinares.github.io/wdd230/chamber/images/Amazon.png",
-        "membershiplevel": "Gold",
-        "openingdate": "July 22 , 1994 "
-      },
-      {
-        "name": "Alphabet",
-        "address": "1600 Amphitheatre Parkway Mountain View, CA 94043 United States",
-        "phonenumber": "734-332-6500",
-        "url": "https://abc.xyz/",
-        "image": "https://jheferlinares.github.io/wdd230/chamber/images/Alphabet.png",
-        "membershiplevel": "Gold",
-        "openingdate": "August 10, 2015"
-      },
-      {
-        "name": "JP Morgan Chase",
-        "address": "Nueva York, USA",
-        "phonenumber": "713-262-3300",
-        "url": "https://www.jpmorganchase.com/",
-        "image": "https://jheferlinares.github.io/wdd230/chamber/images/JPMorgan_Chase.png",
-        "membershiplevel": "Gold",
-        "openingdate": "1799"
-      },
-      {
-        "name": "Berkshire Hathaway",
-        "address": "Omaha, Nebraska , United States",
-        "phonenumber": "402 346 1400",
-        "url": "https://www.berkshirehathaway.com/",
-        "image": "https://jheferlinares.github.io/wdd230/chamber/images/Berkshire-Hathaway.png",
-        "membershiplevel": "Gold",
-        "openingdate": "1839"
-      },
-      {
-        "name": "Firestone",
-        "address": "Nashville, Tennessee, USA",
-        "phonenumber": "615-937-1000",
-        "url": "https://www.firestone.com/",
-        "image": "https://jheferlinares.github.io/wdd230/chamber/images/Firestone.png",
-        "membershiplevel": "Gold",
-        "openingdate": "1900"
-      }
-    ]
-  }
+  "rentals": [
+    {
+      "name": "Honda Metro Scooter",
+      "MaxPersons": "1",
+      "HalfDay": "$20",
+      "FullDay": "$30",
+      "image": "",
+      "type": "Reservation"
+    },
+    {
+      "name": "Honda Dio Scooter",
+      "MaxPersons": "2",
+      "HalfDay": "$30",
+      "FullDay": "$40",
+      "image": "",
+      "type": "Reservation"
+    },
+    {
+      "name": "Honda PCX150 Scooter",
+      "MaxPersons": "2",
+      "HalfDay": "$40",
+      "FullDay": "$50",
+      "image": "",
+      "type": "Reservation"
+    },
+    {
+      "name": "Honda Pioneer ATV",
+      "MaxPersons": "4",
+      "HalfDay": "$50",
+      "FullDay": "$70",
+      "image": "",
+      "type": "Reservation"
+    },
+    {
+      "name": "Jeep Wrangler - 4 door with a/c",
+      "MaxPersons": "5",
+      "HalfDay": "$70",
+      "FullDay": "$100",
+      "image": "",
+      "type": "Reservation"
+    },
+    {
+      "name": "Jeep Wrangler - 2 door",
+      "MaxPersons": "4",
+      "HalfDay": "$60",
+      "FullDay": "$85",
+      "image": "",
+      "type": "Reservation"
+    },
+    {
+      "name": "Honda Metro Scooter",
+      "MaxPersons": "1",
+      "HalfDay": "$25",
+      "FullDay": "$35",
+      "image": "",
+      "type": "Walk-In"
+    },
+    {
+      "name": "Honda Metro Scooter",
+      "MaxPersons": "1",
+      "HalfDay": "$35",
+      "FullDay": "$45",
+      "image": "",
+      "type": "Walk-In"
+    },
+    {
+      "name": "Honda Metro Scooter",
+      "MaxPersons": "1",
+      "HalfDay": "$45",
+      "FullDay": "$55",
+      "image": "",
+      "type": "Walk-In"
+    },
+    {
+      "name": "Honda Metro Scooter",
+      "MaxPersons": "1",
+      "HalfDay": "$60",
+      "FullDay": "$80",
+      "image": "",
+      "type": "Walk-In"
+    },
+    {
+      "name": "Honda Metro Scooter",
+      "MaxPersons": "1",
+      "HalfDay": "$85",
+      "FullDay": "$125",
+      "image": "",
+      "type": "Walk-In"
+    },
+    {
+      "name": "Honda Metro Scooter",
+      "MaxPersons": "1",
+      "HalfDay": "$70",
+      "FullDay": "$90",
+      "image": "",
+      "type": "Walk-In"
+    }
+  ]
+}

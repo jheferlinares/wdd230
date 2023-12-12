@@ -1,27 +1,28 @@
+const baseURL = "https://jheferlinares.github.io/wdd230/";
 const linksURL = "https://jheferlinares.github.io/wdd230/project/data/prices.json";
-const cards = document.querySelector('#cards');
+const cards = document.querySelector('.grid');
 
 async function getCompaniesData() {
   const response = await fetch(linksURL);
   const data = await response.json();
- displayCompanies(data.rentals);
+ displayCompanies(data.companies);
 }
 
 getCompaniesData();
 
-const displayCompanies = (rentals) => {
-    rentals.forEach((rental) => {
+const displayCompanies = (companies) => {
+    companies.forEach((company) => {
       let card = document.createElement('section');
       let name = document.createElement('h2');
-      let MaxPersons = document.createElement("p");
+      let address = document.createElement("p");
       let phone = document.createElement("p");
       let url = document.createElement("a");
       let portrait = document.createElement('img');
       let level = document.createElement("p");
       let date = document.createElement("p");
   
-      name.textContent = `${rental.name}`;
-      MaxPersons.textContent = `Address: ${company.}`;
+      name.textContent = `${company.name}`;
+      address.textContent = `Address: ${company.address}`;
       phone.textContent = `Phone number: ${company.phonenumber}`;
       url.setAttribute('href', `${company.url}`);
       url.setAttribute('target', `_blank`);

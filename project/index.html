@@ -7,7 +7,7 @@
     <meta name="author" content="Jhefersson Linares">
     <meta name="description" content="A project page for WDD 230 - Frontend Web Development by Jhefersson Enrique Linares Castillo. 
     It serves as a guide and information on transportation rental promotions and services on the Mexican coast of Cozumel before arriving 
-    on the island and provides information on rental services, requirements and process.">
+    on the island and provides information on rental services, requirements and process">
     <meta property="og:title" content="Jhefersson Linares - WDD 230 - Cozumel rentals services">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/1/18/Cozumel.jpg">
@@ -45,7 +45,13 @@
         </ul>
     </nav>
     <div id="bb">
-        <div class="bannerCont"><img id="banner" src="images/banner.webp" alt="Cozumel banner"></div>
+        <picture class="bannerCont">
+            <source srcset="images/banner-small.webp" media="(max-width: 500px)">
+            <source srcset="images/banner-medium.webp" media="(max-width: 2000px)">
+            <source srcset="images/banner-large.webp" media="(max-width: 3000px)">
+            <img id="banner" src="images/banner-large.webp" alt="hero example image" width="3000" height="1500">
+        </picture>
+        <!--<div class="bannerCont"><img id="banner" src="images/banner.webp" alt="Cozumel banner"></div>-->
         <div id="reservation"><a href="" target="">Book Now</a></div>
     </div>
     <main>

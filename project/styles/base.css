@@ -69,8 +69,6 @@ ul {
     max-width: 100%;
     height: auto;
     margin: 0 auto;
-    background-color: black; opacity: 0.5;
-    filter: brightness(0.6);
 }
 
 .bannerCont {
@@ -261,20 +259,20 @@ main {
 
 .banner {
     z-index: 1;
-    background-color: #3a8699;
+    background-color: #1b5361;
     color: white;
     text-align: center;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-  }
+}
 
-  .banner p {
+.banner p {
     font-size: 8px;
-  }
+}
   
-  #closeBannerBtn {
+#closeBannerBtn {
     background-color: #ff1100;
     color: white;
     border: none;
@@ -284,7 +282,7 @@ main {
     display: inline-block;
     cursor: pointer;
     font-size: 6px;
-  }
+}
 
 #nojose {
     margin-top: -8px;

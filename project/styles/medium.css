@@ -34,7 +34,7 @@
     #social {
         display: flex;
         position: absolute;
-        top: 1px;
+        top: 80px;
     }
 
     a img {
@@ -46,4 +46,45 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .switch {
+        top: 5.5rem;
+        right: 4rem;
+    }
+
+    #closeBannerBtn {
+        font-size: 10px;
+    }
+
+    #nojose {
+        margin-top: 1px;
+    }
+
+    .banner p {
+        font-size: 12px;
+    }
+
+    #reservation {
+        border-radius: 5px;
+    }
+    
+    #reservation a {
+        font-size: 40px;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    
+    a img {
+        width: 30px;
+        padding: 5px;
+    }
+
+    .copy {
+        grid-row: 2;
+        grid-column: 3;
+    }
 }

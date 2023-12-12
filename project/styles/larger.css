@@ -1,0 +1,58 @@
+@media screen and (min-width: 2000px)
+{
+
+    .tittle {
+        font-size: 60px;
+    }
+
+    #social {
+        top: 150px;
+    }
+
+    .switch {
+        top: 10rem;
+    }
+
+    #closeBannerBtn {
+        font-size: 20px;
+    }
+
+    #nojose {
+        margin-top: 5px;
+    }
+
+    .banner p {
+        font-size: 20px;
+    }
+    
+    #reservation a {
+        font-size: 80px;
+    }
+
+    footer {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    
+    a img {
+        width: 30px;
+        padding: 5px;
+    }
+
+    #resume p, #weather-section {
+        font-size: 40px;
+    }
+
+    .principal,  #resume h2 {
+        font-size: 60px;
+    }
+
+    a img {
+        width: 80px;
+        padding: 5px;
+    }
+
+    .switch {
+        right: 8rem;
+    }
+}

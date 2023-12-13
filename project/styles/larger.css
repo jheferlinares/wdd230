@@ -55,4 +55,12 @@
     .switch {
         right: 8rem;
     }
+
+    #prices {
+        font-size: 20px;
+    }
+
+    table {
+        font-size: 20px;
+    }
 }

@@ -208,7 +208,7 @@ a img {
 }
 
 /* main */
-main {
+.h-main {
     display: grid;
     grid-template-columns: 1fr;
     gap: 5px;
@@ -286,4 +286,31 @@ main {
 
 #nojose {
     margin-top: -8px;
+}
+
+#r-main {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin: 0 auto;
+}
+
+table {
+    margin: 0 auto;
+    font-size: 8px;
+}
+
+#prices {
+    font-size: 8px;
+}
+
+#ecard {
+    background-color: #93bde2;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#rental-tittle {
+    margin-bottom: -20px;
 }

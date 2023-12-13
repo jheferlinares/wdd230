@@ -1,6 +1,6 @@
 const baseURL = "https://jheferlinares.github.io/wdd230/";
 const linksURL = "https://jheferlinares.github.io/wdd230/project/data/prices.json";
-const cards = document.querySelector('#prices');
+const cards = document.querySelector('#prices-content');
 
 async function getCompaniesData() {
   const response = await fetch(linksURL);

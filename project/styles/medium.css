@@ -88,7 +88,7 @@
         grid-column: 3;
     }
 
-    #prices {
+    #prices-content {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
         font-size: 15px;

@@ -5,7 +5,7 @@
       "MaxPersons": "1",
       "HalfDay": "$20",
       "FullDay": "$30",
-      "image": "",
+      "image": "https://jheferlinares.github.io/wdd230/project/images/metro.webp",
       "type": "Reservation"
     },
     {
@@ -13,7 +13,7 @@
       "MaxPersons": "2",
       "HalfDay": "$30",
       "FullDay": "$40",
-      "image": "",
+      "image": "https://jheferlinares.github.io/wdd230/project/images/dio.webp",
       "type": "Reservation"
     },
     {
@@ -21,7 +21,7 @@
       "MaxPersons": "2",
       "HalfDay": "$40",
       "FullDay": "$50",
-      "image": "",
+      "image": "https://jheferlinares.github.io/wdd230/project/images/pcx.webp",
       "type": "Reservation"
     },
     {
@@ -29,7 +29,7 @@
       "MaxPersons": "4",
       "HalfDay": "$50",
       "FullDay": "$70",
-      "image": "",
+      "image": "https://jheferlinares.github.io/wdd230/project/images/pioneer.webp",
       "type": "Reservation"
     },
     {
@@ -37,7 +37,7 @@
       "MaxPersons": "5",
       "HalfDay": "$70",
       "FullDay": "$100",
-      "image": "",
+      "image": "https://jheferlinares.github.io/wdd230/project/images/wrangler.webp",
       "type": "Reservation"
     },
     {
@@ -45,7 +45,7 @@
       "MaxPersons": "4",
       "HalfDay": "$60",
       "FullDay": "$85",
-      "image": "",
+      "image": "https://jheferlinares.github.io/wdd230/project/images/wrangle2d.webp",
       "type": "Reservation"
     },
     {
@@ -53,47 +53,47 @@
       "MaxPersons": "1",
       "HalfDay": "$25",
       "FullDay": "$35",
-      "image": "",
+      "image": "https://jheferlinares.github.io/wdd230/project/images/metro.webp",
       "type": "Walk-In"
     },
     {
-      "name": "Honda Metro Scooter",
-      "MaxPersons": "1",
+      "name": "Honda Dio Scooter",
+      "MaxPersons": "2",
       "HalfDay": "$35",
       "FullDay": "$45",
-      "image": "",
+      "image": "https://jheferlinares.github.io/wdd230/project/images/m.webp",
       "type": "Walk-In"
     },
     {
-      "name": "Honda Metro Scooter",
-      "MaxPersons": "1",
+      "name": "Honda PCX150 Scooter",
+      "MaxPersons": "2",
       "HalfDay": "$45",
       "FullDay": "$55",
-      "image": "",
+      "image": "ttps://jheferlinares.github.io/wdd230/project/images/m.webp",
       "type": "Walk-In"
     },
     {
-      "name": "Honda Metro Scooter",
-      "MaxPersons": "1",
+      "name": "Honda Pioneer ATV",
+      "MaxPersons": "4",
       "HalfDay": "$60",
       "FullDay": "$80",
-      "image": "",
+      "image": "ttps://jheferlinares.github.io/wdd230/project/images/m.webp",
       "type": "Walk-In"
     },
     {
-      "name": "Honda Metro Scooter",
-      "MaxPersons": "1",
+      "name": "Jeep Wrangler - 4 door with a/c",
+      "MaxPersons": "5",
       "HalfDay": "$85",
       "FullDay": "$125",
-      "image": "",
+      "image": "ttps://jheferlinares.github.io/wdd230/project/images/m.webp",
       "type": "Walk-In"
     },
     {
-      "name": "Honda Metro Scooter",
-      "MaxPersons": "1",
+      "name": "Jeep Wrangler - 2 door",
+      "MaxPersons": "4",
       "HalfDay": "$70",
       "FullDay": "$90",
-      "image": "",
+      "image": "ttps://jheferlinares.github.io/wdd230/project/images/m.webp",
       "type": "Walk-In"
     }
   ]

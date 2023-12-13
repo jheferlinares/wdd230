@@ -69,7 +69,7 @@
       "MaxPersons": "2",
       "HalfDay": "$45",
       "FullDay": "$55",
-      "image": "ttps://jheferlinares.github.io/wdd230/project/images/pcx.webp",
+      "image": "https://jheferlinares.github.io/wdd230/project/images/pcx.webp",
       "type": "Walk-In"
     },
     {
@@ -77,7 +77,7 @@
       "MaxPersons": "4",
       "HalfDay": "$60",
       "FullDay": "$80",
-      "image": "ttps://jheferlinares.github.io/wdd230/project/images/pioneer.webp",
+      "image": "https://jheferlinares.github.io/wdd230/project/images/pioneer.webp",
       "type": "Walk-In"
     },
     {
@@ -85,7 +85,7 @@
       "MaxPersons": "5",
       "HalfDay": "$85",
       "FullDay": "$125",
-      "image": "ttps://jheferlinares.github.io/wdd230/project/images/wrangler.webp",
+      "image": "https://jheferlinares.github.io/wdd230/project/images/wrangler.webp",
       "type": "Walk-In"
     },
     {
@@ -93,7 +93,7 @@
       "MaxPersons": "4",
       "HalfDay": "$70",
       "FullDay": "$90",
-      "image": "ttps://jheferlinares.github.io/wdd230/project/images/wrangler2d.webp",
+      "image": "https://jheferlinares.github.io/wdd230/project/images/wrangler2d.webp",
       "type": "Walk-In"
     }
   ]

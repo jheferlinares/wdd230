@@ -1,6 +1,6 @@
 /* tittle */
 .tittle {
-    color: #1b5f9a;
+    color: #1b5361;
     text-align: center;
     font-size: 10px;
     margin-top: 35px;
@@ -13,7 +13,7 @@
 }
 
 ul {
-    background-color: #1b5f9a;
+    background-color: #1b5361;
     display: flex;
     list-style: none;
     justify-content: space-around;
@@ -197,7 +197,7 @@ tr th:first-child {
 /* footer */
 footer {
     text-align: center;
-    background-color: #1b5f9a;
+    background-color: #1b5361;
     color: #ffffff;
     font-size: 12px;
     padding: 2px;
@@ -274,7 +274,7 @@ a img {
 }
   
 #closeBannerBtn {
-    background-color: #ff1100;
+    background-color: #062932;
     color: white;
     border: none;
     padding: 1px 4px;

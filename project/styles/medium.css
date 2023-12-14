@@ -130,4 +130,7 @@
     fieldset legend {
         font-size: 25px;
     }
+    .contact-content, .contact-tittle {
+        font-size: 15px;
+    }
 }

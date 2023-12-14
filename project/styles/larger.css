@@ -67,4 +67,8 @@
     #servi {
         font-size: 20px;
     }
+
+    .contact-content, .contact-tittle {
+        font-size: 25px;
+    }
 }

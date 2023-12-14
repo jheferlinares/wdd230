@@ -414,3 +414,12 @@ form label.first input:required:valid {
 .message {
     text-align: center;
 }
+
+#map-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  iframe {
+    border: 0;
+}

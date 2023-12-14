@@ -32,7 +32,6 @@
         <a id="menu" href="#"></a> 
         <section class="ele">
             <div class="tittle">
-                <h1></h1>
             </div>
         </section>
     </header>
@@ -44,16 +43,6 @@
             <li><a class="Anav" href="https://jheferlinares.github.io/wdd230/project/contact.html" target="_blank">Contact</a></li>
         </ul>
     </nav>
-    <div id="bb">
-        <picture class="bannerCont">
-            <source srcset="images/banner-small.webp" media="(max-width: 500px)">
-            <source srcset="images/banner-medium.webp" media="(max-width: 2000px)">
-            <source srcset="images/banner-large.webp" media="(max-width: 3000px)">
-            <img id="banner" src="images/banner-large.webp" alt="hero example image" width="3000" height="1500">
-        </picture>
-        <!--<div class="bannerCont"><img id="banner" src="images/banner.webp" alt="Cozumel banner"></div>-->
-        <div id="reservation"><a href="" target="">Book Now</a></div>
-    </div>
     <main id="r-main">
         <div id="servi">
             <h2>Rental Services and Agreements</h2>
@@ -72,7 +61,7 @@
         </div>
         <div id="chamoquefastidioloco">
             <h2>Make a Reservation</h2>
-        <form method="get" action="thankyou.html">
+    <form method="get" action="thankyou.html">
         <fieldset>
             <legend>Personal Information</legend>
             <label class="first">First Name* <input type="text" name="fname" required id="fname"></label>
@@ -83,23 +72,21 @@
         <fieldset>
             <legend>Reservation Information</legend>
             <label for="date">Entry date:</label>
-            <input type="date" id="date" name="date">
+            <input type="date" id="fdate" name="date">
             <label for="date">Departure date:</label>
-            <input type="date" id="date" name="date">
+            <input type="date" id="ldate" name="date">
             <label class="first">Country* <input type="text" name="business" id="bname" required></label>
             <label class="first">Cruise line (if applicable) <input type="text" name="tittle" id="tittle"></label>
                     <label class="bam"><input type="radio" name="audience" value="NP">Scooter</label>
                     <label class="bam"><input type="radio" name="audience" value="Bronze">ATVs</label>
                     <label class="bam"><input type="radio" name="audience" value="Silver">Jeeps</label>
             <label class="first">Explain your choice: </label><textarea name="description" id="bdescription" rows="4" cols="50"></textarea>
-                    
-
-        
+        </fieldset>     
         <div class="button-cont">
             <input type="submit" value="Get a Reservation" class="submitBtn">
         </div>
     </form>
-</div>
+    </div>
     </main>
     <footer>
         <p class="copy">&copy; <span id="copyright-year"></span></p>
